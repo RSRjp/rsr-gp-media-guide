@@ -5,14 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
+locale                   : "ja"
+title                    : "RSR Grand Prix Media Guide 2017"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "RSR_jp"
+description              : "This is Media Guide of RSR Grand Prix"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -61,7 +62,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : RSR_jp
 facebook:
   username               :
   app_id                 :
@@ -83,10 +84,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             :
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              :
+  location         :
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -247,8 +248,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
