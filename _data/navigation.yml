@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "チーム"
+    url: /teams/
+  - title: "ドライバー"
+    url: /drivers/
+  - title: "日程"
+    url: /races/
