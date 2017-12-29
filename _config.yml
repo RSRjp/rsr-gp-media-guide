@@ -120,6 +120,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _races
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -249,3 +250,12 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _races
+  - scope:
+      path: "_races"
+      type: pages
+    values:
+      layout: race
+      category: race
+      sidebar:
+        nav: "races"

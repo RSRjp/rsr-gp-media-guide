@@ -6,3 +6,19 @@ main:
     url: /drivers/
   - title: "日程"
     url: /races/
+# races links
+races:
+  - title: "レース"
+    children:
+    - title: "メルボルン (2018/01/13)"
+      url: /races/2018-01-13-australian-grand-prix/
+    - title: "モンテカルロ (2018/01/27)"
+      url: /races/2018-01-27-monaco-grand-prix/
+    - title: "バクー (2018/02/10)"
+      url: /races/2018-02-10-azerbaijan-grand-prix/
+    - title: "バルセロナ (2018/02/24)"
+      url: /races/2018-02-24-spanish-grand-prix/
+    - title: "モンツァ (2018/03/10)"
+      url: /races/2018-03-10-italian-grand-prix/
+    - title: "スパ=フランコルシャン (2018/03/24)"
+      url: /races/2018-03-24-belgian-grand-prix/

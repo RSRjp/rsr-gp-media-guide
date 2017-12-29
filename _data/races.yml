@@ -1,0 +1,48 @@
+- date: 2018-01-13
+  name: "オーストラリアグランプリ"
+  location: "メルボルン"
+  circuit:
+    name: "メルボルン・グランプリ・サーキット"
+    image: /assets/images/circuits/melbourne.png
+    length: 5.303
+    laps: 29
+- date: 2018-01-27
+  name: "モナコグランプリ"
+  location: "モンテカルロ"
+  circuit:
+    name: "モンテカルロ市街地コース"
+    image: /assets/images/circuits/montecarlo.png
+    length: 3.337
+    laps: 39
+- date: 2018-02-10
+  name: "アゼルバイジャングランプリ"
+  location: "バクー"
+  circuit:
+    name: "バクー市街地コース"
+    image: /assets/images/circuits/baku.png
+    length: 6.003
+    laps: 26
+- date: 2018-02-24
+  name: "スペイングランプリ"
+  location: "バルセロナ"
+  circuit:
+    name: "シルクイート・デ・バルセロナ=カタルーニャ"
+    image: /assets/images/circuits/catalunya.png
+    length: 4.655
+    laps: 33
+- date: 2018-03-10
+  name: "イタリアグランプリ"
+  location: "モンツァ"
+  circuit:
+    name: "アウトドーロモ・ナツィオナーレ・ディ・モンツァ"
+    image: /assets/images/circuits/monza.png
+    length: 5.793
+    laps: 27
+- date: 2018-03-24
+  name: "ベルギーグランプリ"
+  location: "スパ=フランコルシャン"
+  circuit:
+    name: "シルキュイ・ド・スパ=フランコルシャン"
+    image: /assets/images/circuits/spafrancorchamps.png
+    length: 7.004
+    laps: 22

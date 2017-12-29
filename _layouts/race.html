@@ -1,0 +1,20 @@
+---
+layout: single
+---
+{% assign race = site.data.races[page.race_index] %}
+
+<h2>{{ race.location }} - {{ race.date | date:'%Y/%m/%d' }}</h2>
+
+{% capture circuit_detail %}
+  <dl>
+    <dt>サーキット</dt>
+    <dd>{{ race.circuit.name }}</dd>
+    <dt>全長</dt>
+    <dd>{{ race.circuit.length }} km</dd>
+    <dt>周回数</dt>
+    <dd>{{ race.circuit.laps }} 周</dd>
+  </dl>
+{% endcapture %}
+{% include figure image_path=race.circuit.image alt=race.circuit.name caption=circuit_detail %}
+
+{{ content }}
