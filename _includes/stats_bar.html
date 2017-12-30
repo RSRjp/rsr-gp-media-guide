@@ -1,0 +1,44 @@
+{% assign stats = include.stats %}
+{% assign entry_name = include.entry_name %}
+<aside class="sidebar__right">
+  <h3
+    {% if include.color %}
+      style="background: {{ include.color.code }};{% if include.color.inverse %} color: #fff;{% endif %}"
+    {% endif %}
+  >
+    {{ entry_name }}
+  </h3>
+  <dl>
+    {% if stats.full_team_name %}
+      <dt>チーム名</dt>
+      <dd>{{ stats.full_team_name }}</dd>
+      <dt>シャーシ</dt>
+      <dd>{{ stats.chassis | default: "TBA" }}</dd>
+      <dt>ドライバー</dt>
+      {% for i in (0..1) %}
+        <dd>{{ stats.drivers[i] | default: 'TBA' }}</dd>
+      {% endfor %}
+      {% for driver in stats.alternate_drivers %}
+        <dd><i>{{ driver }}</i></dd>
+      {% endfor %}
+      <hr />
+    {% endif %}
+    <dt>初参戦シーズン</dt>
+    <dd>{{ stats.first_season | default: "なし" }}</dd>
+    <dt>チャンピオン回数</dt>
+    <dd>{% if stats.championships %}{{ stats.championships.size }} 回{% else %}なし{% endif %}</dd>
+    {% if stats.wins > 0 %}
+      <dt>優勝回数</dt>
+      <dd>{{ stats.wins }} 勝</dd>
+    {% else %}
+      <dt>レース最上位</dt>
+      <dd>{% if stats.highest_finish > 0 %}{{ stats.highest_finish }} 位{% else %}なし{% endif %}</dd>
+    {% endif %}
+    <dt>表彰台回数</dt>
+    <dd>{% if stats.podiums > 0 %}{{ stats.podiums }} 回{% else %}なし{% endif %}</dd>
+    <dt>ポールポジション</dt>
+    <dd>{% if stats.pole_positions > 0 %}{{ stats.pole_positions }} 回{% else %}なし{% endif %}</dd>
+    <dt>ファステストラップ</dt>
+    <dd>{% if stats.fastest_laps > 0 %}{{ stats.fastest_laps }} 回{% else %}なし{% endif %}</dd>
+  </dl>
+</aside>

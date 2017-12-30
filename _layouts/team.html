@@ -1,0 +1,13 @@
+---
+layout: single
+search: true
+---
+{% assign name = page.team_name %}
+{% assign team = site.data.teams[name] %}
+{% capture entry_name %}
+  {{ name }}{% if name != team.powerunit %}&nbsp;-&nbsp;{{ team.powerunit }}{% endif %}
+{% endcapture %}
+
+{% include stats_bar.html stats=team entry_name=entry_name color=team.color %}
+
+{{ content }}

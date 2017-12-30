@@ -1,0 +1,205 @@
+"Mercedes":
+  ja_name: "メルセデス"
+  full_team_name: "Mercedes-AMG Petronas Motorsport"
+  chassis: "GP W08 EQ Power+"
+  powerunit: "Mercedes"
+  color:
+    code: "#00cfba"
+    inverse: false
+  first_season: 2010
+  championships:
+  - 2010
+  - 2015
+  highest_finish: 1
+  wins: 12
+  pole_positions: 10
+  fastest_laps: 8
+  podiums: 25
+  drivers:
+  - "GTC-F"
+  - "AiM"
+"Red Bull":
+  ja_name: "レッドブル"
+  full_team_name: "Red Bull Racing"
+  chassis: "RB13"
+  powerunit: "TAG Heuer"
+  color:
+    code: "#00007d"
+    inverse: true
+  first_season: 2007
+  championships:
+  - 2013
+  highest_finish: 1
+  wins: 4
+  pole_positions: 8
+  fastest_laps: 9
+  podiums: 15
+  drivers:
+  - "Lybius"
+  - "mizu312"
+"Ferrari":
+  ja_name: "フェラーリ"
+  full_team_name: "Scuderia Ferrari"
+  chassis: "SF70H"
+  powerunit: "Ferrari"
+  color:
+    code: "#c30000"
+    inverse: true
+  first_season: 2007
+  championships:
+  - 2012
+  - 2014
+  highest_finish: 1
+  wins: 7
+  pole_positions: 7
+  fastest_laps: 3
+  podiums: 21
+  drivers:
+  - "BlueBlack14"
+  - "Hayata Asaga"
+"Force India":
+  ja_name: "フォースインディア"
+  ja_short_name: "Fインディア"
+  full_team_name: "Sahara Force India GP Team"
+  chassis: "VJM10"
+  powerunit: "Mercedes"
+  color:
+    code: "#ff80c7"
+    inverse: false
+  first_season: 2008
+  championships:
+  highest_finish: 1
+  wins: 7
+  pole_positions: 8
+  fastest_laps: 9
+  podiums: 20
+  drivers:
+  - "sucrose"
+  - "satoruko"
+"Williams":
+  ja_name: "ウィリアムズ"
+  full_team_name: "Williams Martini Racing"
+  chassis: "FW40"
+  powerunit: "Mercedes"
+  color:
+    # code: "#52b6d6"
+    code: "#ffffff"
+    inverse: false
+  first_season: 2007
+  championships:
+  - 2007
+  highest_finish: 1
+  wins: 7
+  pole_positions: 11
+  fastest_laps: 5
+  podiums: 21
+  drivers:
+  - "Yuto Dutchin"
+  - "ODIMON"
+"McLaren":
+  ja_name: "マクラーレン"
+  full_team_name: "McLaren Honda"
+  chassis: "MCL32"
+  powerunit: "Honda"
+  color: 
+    code: "#ff7b08"
+    inverse: false
+  first_season: 2007
+  championships:
+  - 2016
+  highest_finish: 1
+  wins: 4
+  pole_positions: 3
+  fastest_laps: 6
+  podiums: 23
+  drivers:
+  - "Harmonia"
+  - "konkon"
+"Toro Rosso":
+  ja_name: "トロロッソ"
+  full_team_name: "Scuderia Toro Rosso"
+  chassis: "STR12"
+  powerunit: "Renault"
+  color: 
+    code: "#0000ff"
+    inverse: true
+  first_season: 2007
+  championships:
+  highest_finish: 1
+  wins: 6
+  pole_positions: 3
+  fastest_laps: 5
+  podiums: 18
+  drivers:
+  - "ninneko"
+  - "nori21"
+"Haas":
+  ja_name: "ハース"
+  full_team_name: "Haas GP Team"
+  chassis: "VF-17"
+  powerunit: "Ferrari"
+  color: 
+    code: "#6c0000"
+    inverse: true
+  first_season: 2016
+  championships:
+  highest_finish: 9
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+  drivers:
+  - "knosu"
+  - "NARU"
+"Renault":
+  ja_name: "ルノー"
+  full_team_name: "Renault Sport GP Team"
+  chassis: "R.S.17"
+  powerunit: "Renault"
+  color:
+    code: "#ffd800"
+    inverse: false
+  first_season: 2007
+  championships:
+  highest_finish: 2
+  wins: 0
+  pole_positions: 2
+  fastest_laps: 2
+  podiums: 4
+  drivers:
+  - "Luthien Remillia"
+  - "ren53"
+"Sauber":
+  ja_name: "ザウバー"
+  full_team_name: "Sauber GP Team"
+  chassis: "C36"
+  powerunit: "Ferrari"
+  color: 
+    code: "#006eff"
+    inverse: true
+  first_season: 2010
+  championships:
+  highest_finish: 1
+  wins: 2
+  pole_positions: 2
+  fastest_laps: 2
+  podiums: 5
+  drivers:
+"SHR":
+  ja_name: "SHR"
+  full_team_name: "Super Happa Racing"
+  chassis: ""
+  powerunit: "Mercedes"
+  color:
+    code: "#ff00ff"
+    inverse: true
+  first_season: 2014
+  championships:
+  highest_finish: 3
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 1
+  drivers:
+  - "Happa"
+  - "sikeindy"

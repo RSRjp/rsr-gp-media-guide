@@ -1,0 +1,34 @@
+---
+layout: archive
+title: "チーム"
+permalink: /teams/
+header:
+  overlay_image: /assets/images/teams_idx.jpg
+---
+
+<div class="grid__wrapper">
+
+{% for h_item in site.data.teams %}
+  {% assign name = h_item[0] %}
+  {% assign team = h_item[1] %}
+  <div class="grid__item">
+    <h2 class="archive__item-title" itemprop="headline">
+      {% capture i_url %}{{ name | slugify: 'pretty' | prepend: '/teams/' | append: '/' }}{% endcapture %}
+      <a href="{{ i_url | relative_url }}" rel="permalink">
+        <span class="fa-stack fa-lg fa-fw">
+          <i class="fa fa-square fa-stack-2x" style="color: {{ team.color.code }}"></i>
+          <i class="fa fa-life-ring fa-stack-1x{% if team.color.inverse %} fa-inverse{% endif %}"></i>
+        </span>
+        {{ team.ja_short_name | default: team.ja_name }}
+      </a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">
+      <ul class="fa-ul">
+        {% for driver in team.drivers %}
+          <li><i class="fa-li fa fa-user-circle-o" aria-hidden="true"></i>{{ driver }}</li>
+        {% endfor %}
+      </ul>
+    </p>
+  </div>
+{% endfor %}
+</div>

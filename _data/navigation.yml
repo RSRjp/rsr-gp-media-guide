@@ -6,6 +6,34 @@ main:
     url: /drivers/
   - title: "日程"
     url: /races/
+# teams links
+teams:
+  - title: "チーム"
+    children:
+    - title: "メルセデス"
+      url: /teams/mercedes/
+    - title: "レッドブル"
+      url: /teams/red-bull/
+    - title: "フェラーリ"
+      url: /teams/ferrari/
+    - title: "フォースインディア"
+      url: /teams/force-india/
+    - title: "ウィリアムズ"
+      url: /teams/williams/
+    - title: "マクラーレン"
+      url: /teams/mclaren/
+    - title: "トロロッソ"
+      url: /teams/toro-rosso/
+    - title: "ハース"
+      url: /teams/haas/
+    - title: "ルノー"
+      url: /teams/renault/
+    - title: "ザウバー"
+      url: /teams/sauber/
+    - title: "SHR"
+      url: /teams/shr/
+#    - title: "HART"
+#      url: /teams/hart/
 # races links
 races:
   - title: "レース"
