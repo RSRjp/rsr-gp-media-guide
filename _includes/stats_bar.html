@@ -16,16 +16,40 @@
       <dd>{{ stats.chassis | default: "TBA" }}</dd>
       <dt>ドライバー</dt>
       {% for i in (0..1) %}
-        <dd>{{ stats.drivers[i] | default: 'TBA' }}</dd>
+        <dd>
+          {% assign driver = stats.drivers[i] %}
+          {% if driver %}
+            {% assign num = site.data.drivers[driver].number %}
+            {% if num %}{{ num }}.{% endif %}
+            <a href="{{ driver | slugify: 'pretty' | prepend: '/drivers/' | append: '/' | relative_url }}">
+              {{ driver }}
+            </a>
+          {% else %}
+            TBA
+          {% endif %}
+        </dd>
       {% endfor %}
       {% for driver in stats.alternate_drivers %}
-        <dd><i>{{ driver }}</i></dd>
+        <dd>
+          <i>
+            {% assign num = site.data.drivers[driver].number %}
+            {% if num %}{{ num }}.{% endif %}
+            <a href="{{ driver | slugify: 'pretty' | prepend: '/drivers/' | append: '/' | relative_url }}">
+              {{ driver }}
+            </a>
+          </i>
+        </dd>
       {% endfor %}
       <hr />
     {% else %}
-      {% if stats.team_name %}
+      {% assign team = stats.team_name %}
+      {% if team %}
         <dt>所属チーム</dt>
-        <dd>{{ stats.team_name }}</dd>
+        <dd>
+          <a href="{{ team | slugify: 'pretty' | prepend: '/teams/' | append: '/' | relative_url }}">
+            {{ site.data.teams[team].ja_name | default: team }}
+          </a>
+        </dd>
       {% endif %}
     {% endif %}
     <dt>初出走</dt>
