@@ -34,6 +34,50 @@ teams:
       url: /teams/shr/
 #    - title: "HART"
 #      url: /teams/hart/
+# drivers links
+drivers:
+  - title: "ドライバー"
+    children:
+    - title: "Luthien Remillia"
+      url: /drivers/luthien-remillia/
+    - title: "AiM"
+      url: /drivers/aim/
+    - title: "nori21"
+      url: /drivers/nori21/
+    - title: "Harmonia"
+      url: /drivers/harmonia/
+    - title: "ninneko"
+      url: /drivers/ninneko/
+    - title: "satoruko"
+      url: /drivers/satoruko/
+    - title: "sucrose"
+      url: /drivers/sucrose/
+    - title: "Lybius"
+      url: /drivers/lybius/
+    - title: "ODIMON"
+      url: /drivers/odimon/
+    - title: "GTC-F"
+      url: /drivers/gtc-f/
+    - title: "Yuto Dutchin"
+      url: /drivers/yuto-dutchin/
+    - title: "knosu"
+      url: /drivers/knosu/
+    - title: "Hayata Asaga"
+      url: /drivers/hayata-asaga/
+    - title: "konkon"
+      url: /drivers/konkon/
+    - title: "sikeindy"
+      url: /drivers/sikeindy/
+    - title: "ren53"
+      url: /drivers/ren53/
+    - title: "Happa"
+      url: /drivers/happa/
+    - title: "NARU"
+      url: /drivers/naru/
+    - title: "mizu312"
+      url: /drivers/mizu312/
+    - title: "BlueBlack14"
+      url: /drivers/blueblack14/
 # races links
 races:
   - title: "レース"

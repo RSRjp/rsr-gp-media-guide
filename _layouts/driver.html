@@ -1,0 +1,12 @@
+---
+layout: single
+search: true
+---
+{% assign name = page.driver_name %}
+{% assign driver = site.data.drivers[name] %}
+{% assign team = site.data.teams[driver.team_name] %}
+{% capture entry_name %}{% if driver.number %}{{ driver.number }}. {% endif %}{{ name }}{% endcapture %}
+
+{% include stats_bar.html stats=driver entry_name=entry_name color=team.color %}
+
+{{ content }}

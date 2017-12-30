@@ -22,6 +22,11 @@
         <dd><i>{{ driver }}</i></dd>
       {% endfor %}
       <hr />
+    {% else %}
+      {% if stats.team_name %}
+        <dt>所属チーム</dt>
+        <dd>{{ stats.team_name }}</dd>
+      {% endif %}
     {% endif %}
     <dt>初参戦シーズン</dt>
     <dd>{{ stats.first_season | default: "なし" }}</dd>

@@ -1,0 +1,29 @@
+---
+layout: archive
+title: "ドライバー"
+permalink: /drivers/
+header:
+  overlay_image: /assets/images/drivers_idx.jpg
+---
+
+<div class="grid__wrapper">
+
+{% for h_item in site.data.drivers %}
+  {% assign name = h_item[0] %}
+  {% assign driver = h_item[1] %}
+  {% assign team = site.data.teams[driver.team_name] %}
+  {% capture color %}color: {% if team.color.inverse %}#fff{% else %}#000{% endif %};{% endcapture %}
+  <div class="grid__item" style="background: {{ team.color.code }};{{ color }}">
+    {% capture i_url %}{{ name | slugify: 'pretty' | prepend: '/drivers/' | append: '/' }}{% endcapture %}
+    <h1>
+      <a href="{{ i_url | relative_url }}" style="text-decoration: none;" rel="permalink">{{ driver.number }}</a>
+    </h1>
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ i_url | relative_url }}" style="{{ color }} text-decoration: none;" rel="permalink">{{ name }}</a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description" style="{{ color }}">
+      {{ driver.team_name | upcase }}
+    </p>
+  </div>
+{% endfor %}
+</div>

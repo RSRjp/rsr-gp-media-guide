@@ -1,0 +1,206 @@
+"Luthien Remillia":
+  number: 1
+  team_name: "Renault"
+  first_season: 2010
+  championships:
+  - 2012
+  - 2014
+  - 2016
+  highest_finish: 1
+  wins: 11
+  pole_positions: 10
+  fastest_laps: 7
+  podiums: 26
+"AiM":
+  number: 43
+  team_name: "Mercedes"
+  first_season: 2010
+  championships:
+  - 2013
+  highest_finish: 1
+  wins: 9
+  pole_positions: 9
+  fastest_laps: 12
+  podiums: 14
+"nori21":
+  number: 21
+  team_name: "Toro Rosso"
+  first_season: 2010
+  championships:
+  highest_finish: 2
+  wins: 0
+  pole_positions: 1
+  fastest_laps: 0
+  podiums: 7
+"Harmonia":
+  number: 3
+  team_name: "McLaren"
+  first_season: 2010
+  championships:
+  highest_finish: 2
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 6
+"ninneko":
+  number: 16
+  team_name: "Toro Rosso"
+  first_season: 2010
+  championships:
+  highest_finish: 2
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 2
+"satoruko":
+  number: 33
+  team_name: "Force India"
+  first_season: 2014
+  championships:
+  highest_finish: 3
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 2
+"sucrose":
+  number: 69
+  team_name: "Force India"
+  first_season: 2015
+  championships:
+  highest_finish: 6
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"Lybius":
+  number: 5
+  team_name: "Red Bull"
+  first_season: 2007
+  championships:
+  highest_finish: 1
+  wins: 3
+  pole_positions: 1
+  fastest_laps: 3
+  podiums: 5
+"ODIMON":
+  number: 90
+  team_name: "Williams"
+  first_season: 2016
+  championships:
+  highest_finish: 5
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"GTC-F":
+  number: 45
+  team_name: "Mercedes"
+  first_season: 2009
+  championships:
+  - 2009
+  - 2011
+  highest_finish: 1
+  wins: 4
+  pole_positions: 2
+  fastest_laps: 4
+  podiums: 15
+"Yuto Dutchin":
+  number: 71
+  team_name: "Williams"
+  first_season: 2015
+  championships:
+  highest_finish: 6
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"knosu":
+  number: 66
+  team_name: "Haas"
+  first_season: 2015
+  championships:
+  highest_finish: 9
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"Hayata Asaga":
+  number: 18
+  team_name: "Ferrari"
+  first_season: 2016
+  championships:
+  highest_finish: 10
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"konkon":
+  number: 58
+  team_name: "McLaren"
+  first_season: 2016
+  championships:
+  highest_finish: 12
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"sikeindy":
+  number: 77
+  team_name: "SHR"
+  first_season: 2012
+  championships:
+  highest_finish: 7
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"ren53":
+  number: 53
+  team_name: "Renault"
+  first_season: 2016
+  championships:
+  highest_finish: 14
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"Happa":
+  number: 88
+  team_name: "SHR"
+  first_season: 2007
+  championships:
+  highest_finish: 1
+  wins: 3
+  pole_positions: 3
+  fastest_laps: 0
+  podiums: 3
+"NARU":
+  number: 36
+  team_name: "Haas"
+  first_season: 2016
+  championships:
+  highest_finish: 16
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"mizu312":
+  number: 12
+  team_name: "Red Bull"
+  first_season: 2015
+  championships:
+  highest_finish: 5
+  wins: 0
+  pole_positions: 0
+  fastest_laps: 0
+  podiums: 0
+"BlueBlack14":
+  number: 7
+  team_name: "Ferrari"
+  first_season:
+  championships:
+  highest_finish:
+  wins:
+  pole_positions:
+  fastest_laps:
+  podiums:

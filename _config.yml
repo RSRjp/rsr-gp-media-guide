@@ -121,6 +121,7 @@ include:
   - .htaccess
   - _pages
   - _teams
+  - _drivers
   - _races
 exclude:
   - "*.sublime-project"
@@ -260,6 +261,15 @@ defaults:
       category: team
       sidebar:
         nav: "teams"
+  # _drivers
+  - scope:
+      path: "_drivers"
+      type: pages
+    values:
+      layout: driver
+      category: driver
+      sidebar:
+        nav: "drivers"
   # _races
   - scope:
       path: "_races"
