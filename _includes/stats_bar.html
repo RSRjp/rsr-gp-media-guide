@@ -28,8 +28,12 @@
         <dd>{{ stats.team_name }}</dd>
       {% endif %}
     {% endif %}
-    <dt>初参戦シーズン</dt>
-    <dd>{{ stats.first_season | default: "なし" }}</dd>
+    <dt>初出走</dt>
+    <dd>{% if stats.first_season %}{{ stats.first_season }} シーズン{% else %}なし{% endif %}</dd>
+    {% if stats.race_starts %}
+    <dt>出走レース数</dt>
+    <dd>{{ stats.race_starts }} 戦</dd>
+    {% endif %}
     <dt>チャンピオン回数</dt>
     <dd>{% if stats.championships %}{{ stats.championships.size }} 回{% else %}なし{% endif %}</dd>
     {% if stats.wins > 0 %}

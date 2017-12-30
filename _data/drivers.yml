@@ -6,6 +6,7 @@
   - 2012
   - 2014
   - 2016
+  race_starts: 35
   highest_finish: 1
   wins: 11
   pole_positions: 10
@@ -17,6 +18,7 @@
   first_season: 2010
   championships:
   - 2013
+  race_starts: 29
   highest_finish: 1
   wins: 9
   pole_positions: 9
@@ -27,6 +29,7 @@
   team_name: "Toro Rosso"
   first_season: 2010
   championships:
+  race_starts: 33
   highest_finish: 2
   wins: 0
   pole_positions: 1
@@ -37,6 +40,7 @@
   team_name: "McLaren"
   first_season: 2010
   championships:
+  race_starts: 27
   highest_finish: 2
   wins: 0
   pole_positions: 0
@@ -47,6 +51,7 @@
   team_name: "Toro Rosso"
   first_season: 2010
   championships:
+  race_starts: 26
   highest_finish: 2
   wins: 0
   pole_positions: 0
@@ -57,6 +62,7 @@
   team_name: "Force India"
   first_season: 2014
   championships:
+  race_starts: 13
   highest_finish: 3
   wins: 0
   pole_positions: 0
@@ -67,6 +73,7 @@
   team_name: "Force India"
   first_season: 2015
   championships:
+  race_starts: 7
   highest_finish: 6
   wins: 0
   pole_positions: 0
@@ -77,6 +84,7 @@
   team_name: "Red Bull"
   first_season: 2007
   championships:
+  race_starts: 52
   highest_finish: 1
   wins: 3
   pole_positions: 1
@@ -87,6 +95,7 @@
   team_name: "Williams"
   first_season: 2016
   championships:
+  race_starts: 3
   highest_finish: 5
   wins: 0
   pole_positions: 0
@@ -99,6 +108,7 @@
   championships:
   - 2009
   - 2011
+  race_starts: 27
   highest_finish: 1
   wins: 4
   pole_positions: 2
@@ -109,6 +119,7 @@
   team_name: "Williams"
   first_season: 2015
   championships:
+  race_starts: 7
   highest_finish: 6
   wins: 0
   pole_positions: 0
@@ -119,6 +130,7 @@
   team_name: "Haas"
   first_season: 2015
   championships:
+  race_starts: 9
   highest_finish: 9
   wins: 0
   pole_positions: 0
@@ -129,6 +141,7 @@
   team_name: "Ferrari"
   first_season: 2016
   championships:
+  race_starts: 4
   highest_finish: 10
   wins: 0
   pole_positions: 0
@@ -139,6 +152,7 @@
   team_name: "McLaren"
   first_season: 2016
   championships:
+  race_starts: 4
   highest_finish: 12
   wins: 0
   pole_positions: 0
@@ -149,6 +163,7 @@
   team_name: "SHR"
   first_season: 2012
   championships:
+  race_starts: 19
   highest_finish: 7
   wins: 0
   pole_positions: 0
@@ -159,6 +174,7 @@
   team_name: "Renault"
   first_season: 2016
   championships:
+  race_starts: 6
   highest_finish: 14
   wins: 0
   pole_positions: 0
@@ -169,6 +185,7 @@
   team_name: "SHR"
   first_season: 2007
   championships:
+  race_starts: 36
   highest_finish: 1
   wins: 3
   pole_positions: 3
@@ -179,6 +196,7 @@
   team_name: "Haas"
   first_season: 2016
   championships:
+  race_starts: 2
   highest_finish: 16
   wins: 0
   pole_positions: 0
@@ -189,6 +207,7 @@
   team_name: "Red Bull"
   first_season: 2015
   championships:
+  race_starts: 1
   highest_finish: 5
   wins: 0
   pole_positions: 0
@@ -199,6 +218,7 @@
   team_name: "Ferrari"
   first_season:
   championships:
+  race_starts:
   highest_finish:
   wins:
   pole_positions:
