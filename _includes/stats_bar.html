@@ -1,57 +1,70 @@
-{% assign stats = include.stats %}
-{% assign entry_name = include.entry_name %}
+{% case include.type %}
+  {% when "team" %}
+    {% assign team_name = page.team_name %}
+    {% assign stats = site.data.teams[team_name] %}
+    {% capture name %}
+      {{ team_name }}{% if team_name != stats.powerunit %}&nbsp;-&nbsp;{{ stats.powerunit }}{% endif %}
+    {% endcapture %}
+  {% when "driver" %}
+    {% assign driver_name = page.driver_name %}
+    {% assign stats = site.data.drivers[driver_name] %}
+    {% assign team_name = stats.team_name %}
+    {% capture name %}
+      {% if stats.number %}{{ stats.number }}. {% endif %}{{ driver_name }}
+    {% endcapture %}
+{% endcase %}
+
 <aside class="sidebar__right">
   <h3
-    {% if include.color %}
-      style="background: {{ include.color.code }};{% if include.color.inverse %} color: #fff;{% endif %}"
+    {% assign color = stats.color | default: site.data.teams[team_name].color %}
+    {% if color %}
+      style="background: {{ color.code }};{% if color.inverse %} color: #fff;{% endif %}"
     {% endif %}
   >
-    {{ entry_name }}
+    {{ name }}
   </h3>
   <dl>
-    {% if stats.full_team_name %}
-      <dt>チーム名</dt>
-      <dd>{{ stats.full_team_name }}</dd>
-      <dt>シャーシ</dt>
-      <dd>{{ stats.chassis | default: "TBA" }}</dd>
-      <dt>ドライバー</dt>
-      {% for i in (0..1) %}
-        <dd>
-          {% assign driver = stats.drivers[i] %}
-          {% if driver %}
-            {% assign num = site.data.drivers[driver].number %}
-            {% if num %}{{ num }}.{% endif %}
-            <a href="{{ driver | slugify: 'pretty' | prepend: '/drivers/' | append: '/' | relative_url }}">
-              {{ driver }}
-            </a>
-          {% else %}
-            TBA
-          {% endif %}
-        </dd>
-      {% endfor %}
-      {% for driver in stats.alternate_drivers %}
-        <dd>
-          <i>
-            {% assign num = site.data.drivers[driver].number %}
-            {% if num %}{{ num }}.{% endif %}
-            <a href="{{ driver | slugify: 'pretty' | prepend: '/drivers/' | append: '/' | relative_url }}">
-              {{ driver }}
-            </a>
-          </i>
-        </dd>
-      {% endfor %}
-      <hr />
-    {% else %}
-      {% assign team = stats.team_name %}
-      {% if team %}
+    {% case include.type %}
+      {% when 'team' %}
+        <dt>チーム名</dt>
+        <dd>{{ stats.full_team_name }}</dd>
+        <dt>シャーシ</dt>
+        <dd>{{ stats.chassis | default: "TBA" }}</dd>
+        <dt>ドライバー</dt>
+        {% for i in (0..1) %}
+          <dd>
+            {% assign driver = stats.drivers[i] %}
+            {% if driver %}
+              {% assign num = site.data.drivers[driver].number %}
+              {% if num %}{{ num }}.{% endif %}
+              <a href="{{ driver | slugify: 'pretty' | prepend: '/drivers/' | append: '/' | relative_url }}">
+                {{ driver }}
+              </a>
+            {% else %}
+              TBA
+            {% endif %}
+          </dd>
+        {% endfor %}
+        {% for driver in stats.alternate_drivers %}
+          <dd>
+            <i>
+              {% assign num = site.data.drivers[driver].number %}
+              {% if num %}{{ num }}.{% endif %}
+              <a href="{{ driver | slugify: 'pretty' | prepend: '/drivers/' | append: '/' | relative_url }}">
+                {{ driver }}
+              </a>
+            </i>
+          </dd>
+        {% endfor %}
+        <hr />
+      {% when 'driver' %}
         <dt>所属チーム</dt>
         <dd>
-          <a href="{{ team | slugify: 'pretty' | prepend: '/teams/' | append: '/' | relative_url }}">
-            {{ site.data.teams[team].ja_name | default: team }}
+          <a href="{{ team_name | slugify: 'pretty' | prepend: '/teams/' | append: '/' | relative_url }}">
+            {{ site.data.teams[team_name].ja_name | default: team }}
           </a>
         </dd>
-      {% endif %}
-    {% endif %}
+    {% endcase %}
     <dt>初出走</dt>
     <dd>{% if stats.first_season %}{{ stats.first_season }} シーズン{% else %}なし{% endif %}</dd>
     {% if stats.race_starts %}
