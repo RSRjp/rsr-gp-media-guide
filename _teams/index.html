@@ -12,6 +12,9 @@ header:
   {% assign name = h_item[0] %}
   {% assign team = h_item[1] %}
   <div class="grid__item">
+    <div class="archive__item-teaser">
+      <img src="{{ name | remove: " " | prepend: '/assets/images/teams/' | append: '.jpg' | relative_url }}" alt="{{ name }}">
+    </div>
     <h2 class="archive__item-title" itemprop="headline">
       {% capture i_url %}{{ name | slugify: 'pretty' | prepend: '/teams/' | append: '/' }}{% endcapture %}
       <a href="{{ i_url | relative_url }}" rel="permalink">
