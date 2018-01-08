@@ -5,6 +5,7 @@ layout: single
 
 <h2>{{ race.location }} - {{ race.date | date:'%Y/%m/%d' }}</h2>
 
+{% include figure image_path=race.image alt=race.name %}
 {% capture circuit_detail %}
   <dl>
     <dt>サーキット</dt>

@@ -1,6 +1,7 @@
 - date: 2018-01-13
   name: "オーストラリアグランプリ"
   location: "メルボルン"
+  image: /assets/images/races/Melbourne.jpg
   circuit:
     name: "メルボルン・グランプリ・サーキット"
     image: /assets/images/circuits/melbourne.png
@@ -9,6 +10,7 @@
 - date: 2018-01-27
   name: "モナコグランプリ"
   location: "モンテカルロ"
+  image: /assets/images/races/MonteCarlo.jpg
   circuit:
     name: "モンテカルロ市街地コース"
     image: /assets/images/circuits/montecarlo.png
@@ -17,6 +19,7 @@
 - date: 2018-02-10
   name: "アゼルバイジャングランプリ"
   location: "バクー"
+  image: /assets/images/races/Baku.jpg
   circuit:
     name: "バクー市街地コース"
     image: /assets/images/circuits/baku.png
@@ -25,6 +28,7 @@
 - date: 2018-02-24
   name: "スペイングランプリ"
   location: "バルセロナ"
+  image: /assets/images/races/Catalunya.jpg
   circuit:
     name: "シルクイート・デ・バルセロナ=カタルーニャ"
     image: /assets/images/circuits/catalunya.png
@@ -33,6 +37,7 @@
 - date: 2018-03-10
   name: "イタリアグランプリ"
   location: "モンツァ"
+  image: /assets/images/races/Monza.jpg
   circuit:
     name: "アウトドーロモ・ナツィオナーレ・ディ・モンツァ"
     image: /assets/images/circuits/monza.png
@@ -41,6 +46,7 @@
 - date: 2018-03-24
   name: "ベルギーグランプリ"
   location: "スパ=フランコルシャン"
+  image: /assets/images/races/SpaFrancorchamps.jpg
   circuit:
     name: "シルキュイ・ド・スパ=フランコルシャン"
     image: /assets/images/circuits/spafrancorchamps.png
