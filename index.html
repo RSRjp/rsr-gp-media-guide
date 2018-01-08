@@ -4,4 +4,23 @@ layout: splash
 excerpt: "Your Engines!"
 header:
   overlay_image: /assets/images/RSRGP2017_Screenshot.jpg
+posts:
+- header:
+    teaser: /assets/images/teams_idx.jpg
+  title: "チーム"
+  url: "/teams/"
+- header:
+    teaser: /assets/images/drivers_idx.jpg
+  title: "ドライバー"
+  url: "/drivers/"
+- header:
+    teaser: /assets/images/races_idx.jpg
+  title: "日程"
+  url: "/races/"
 ---
+
+<div class="grid__wrapper">
+  {% for post in page.posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
