@@ -1,0 +1,67 @@
+{% case include.type %}
+  {% when "team" %}
+    {% assign records = site.data.records.teams[page.team_name] %}
+  {% when "driver" %}
+    {% assign records = site.data.records.drivers[page.driver_name] %}
+{% endcase %}
+{% if records.size > 0 %}
+  <h3>戦績</h3>
+  <table class="record_summary">
+    <tr style="background: #ccc;">
+      <th>シーズン</th>
+      {% case include.type %}
+        {% when "team" %}
+          <th>エンジン</th>
+          <th>クラス</th>
+          <th>ドライバー</th>
+        {% when "driver" %}
+          <th>チーム</th>
+          <th>クラス</th>
+          <th>出走数</th>
+      {% endcase %}
+      <th>優勝数</th>
+      <th>PP</th>
+      <th>FL</th>
+      <th>表彰台</th>
+      <th>ポイント</th>
+      <th>ランク</th>
+    </tr>
+    {% for h in records %}
+      {% assign season = h[0] %}
+      {% assign record = h[1] %}
+      {% capture bgcolor %}{% cycle "#fff", "#ccc" %}{% endcapture %}
+      {% for stats in record.stats %}
+        {% capture colspan %}{% if forloop.length > 1 %} colspan="{{ forloop.length }}"{% endif %}{% endcapture %}
+        <tr style="background: {{ bgcolor }}">
+          {% if forloop.first %}
+            <td{{ colspan }}>{{ season }}</td>
+            {% case include.type %}
+              {% when "team" %}
+              <td{{ colspan }}>{{ record.engine }}</td>
+              <td style="text-align: center;"{{ colspan }}>{{ record.class }}</td>
+              <td{{ colspan }}>
+                {% for driver in record.drivers %}
+                  {{ driver.number }}. {{ driver.name }}<br />
+                {% endfor %}
+              </td>
+            {% endcase %}
+          {% endif %}
+          {% case include.type %}
+            {% when "driver" %}
+              <td>{{ stats.team }}</td>
+              <td style="text-align: center;">{{ stats.class }}</td>
+              <td>{{ stats.races }}</td>
+          {% endcase %}
+          <td>{{ stats.wins }}</td>
+          <td>{{ stats.pole_positions }}</td>
+          <td>{{ stats.fastest_laps }}</td>
+          <td>{{ stats.podiums }}</td>
+          {% if forloop.first %}
+            <td>{{ record.points }}</td>
+            <td>{{ record.position | default: "N/A" }}</td>
+          {% endif %}
+        </tr>
+      {% endfor %}
+    {% endfor %}
+  </table>
+{% endif %}

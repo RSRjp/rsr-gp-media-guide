@@ -4,4 +4,11 @@ search: true
 ---
 {% include stats_bar.html type="team" %}
 
+{% capture team_thumb_path %}
+  {{- page.team_name | remove: " " | prepend: '/assets/images/teams/' | append: '.jpg' }}
+{% endcapture %}
+{% include figure image_path=team_thumb_path alt=page.team_name %}
+
+{% include record_summary.html type="team" %}
+
 {{ content }}

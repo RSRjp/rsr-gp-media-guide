@@ -1,0 +1,1416 @@
+---
+"Mercedes":
+  2010:
+    engine: "Mercedes"
+    class: "B"
+    position: 1
+    points: 225
+    stats:
+    - races: 16
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+    drivers:
+    - number: 7
+      name: "Lybius"
+    - number: 8
+      name: "milktea"
+    - number: 27
+      name: "halk"
+  2011:
+    engine: "Mercedes"
+    class: "B"
+    position: 4
+    points: 67
+    stats:
+    - races: 10
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 7
+      name: "Harmonia"
+    - number: 8
+      name: "nori21"
+  2012:
+    engine: "Mercedes"
+    class: "B"
+    position: 7
+    points: 38
+    stats:
+    - races: 7
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 7
+      name: "Sato Rin"
+    - number: 8
+      name: "kaz3790"
+    - number: 34
+      name: "IDE"
+  2013:
+    engine: "Mercedes"
+    class: "A"
+    position: 2
+    points: 107
+    stats:
+    - races: 12
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+    drivers:
+    - number: 9
+      name: "halk"
+    - number: 10
+      name: "Morinaga-CoCoa"
+    - number: 35
+      name: "hosodaSR"
+  2014:
+    engine: "Mercedes"
+    class: "A"
+    position: 6
+    points: 36
+    stats:
+    - races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 7
+      name: "Lybius"
+    - number: 26
+      name: "Cotton"
+  2015:
+    engine: "Mercedes"
+    class: "A"
+    position: 1
+    points: 179
+    stats:
+    - races: 9
+      wins: 5
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 8
+    drivers:
+    - number: 23
+      name: "kaz3790"
+    - number: 19
+      name: "hosodaSR"
+  2016:
+    engine: "Mercedes"
+    class: "A"
+    position: 2
+    points: 142
+    stats:
+    - races: 11
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+    drivers:
+    - number: 7
+      name: "Lybius"
+    - number: 5
+      name: "Luthien Remillia"
+"Red Bull":
+  2007:
+    engine: "Renault"
+    class: "C"
+    position: 5
+    points: 36
+    stats:
+    - races: 23
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 20
+      name: "MokeMoke"
+    - number: 21
+      name: "Eldrick"
+    - number: 22
+      name: "ronn"
+  2008:
+    engine: "Renault"
+    class: "C"
+    position: 11
+    points: 0
+    stats:
+    - races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 14
+      name: "Daicha"
+  2009:
+    engine: "Renault"
+    class: "A"
+    position: 4
+    points: 143
+    stats:
+    - races: 18
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 14
+      name: "MokeMoke"
+    - number: 15
+      name: "Rony Tomo"
+    - number: 30
+      name: "puko"
+  2010:
+    engine: "Renault"
+    class: "A"
+    position: 9
+    points: 56
+    stats:
+    - races: 10
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 5
+      name: "MokeMoke"
+    - number: 6
+      name: "Shisyo"
+    - number: 28
+      name: "nori21"
+  2011:
+    engine: "Renault"
+    class: "A"
+    position: 12
+    points: 0
+    stats:
+    - races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 2
+      name: "Shisyo"
+    - number: 26
+      name: "IDE"
+  2012:
+    engine: "Renault"
+    class: "A"
+    position: 6
+    points: 40
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 1
+      name: "Chocoball MUKAI"
+    - number: 2
+      name: "tajitaji"
+  2013:
+    engine: "Renault"
+    class: "A"
+    position: 1
+    points: 154
+    stats:
+    - races: 14
+      wins: 4
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 6
+    drivers:
+    - number: 1
+      name: "AiM"
+    - number: 2
+      name: "GTC-F"
+    - number: 31
+      name: "Cotton"
+  2014:
+    engine: "Renault"
+    class: "B"
+    position: 3
+    points: 49
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 9
+      name: "ninneko"
+    - number: 14
+      name: "Sato Rin"
+    - number: 12
+      name: "Rony Tomo"
+  2015:
+    engine: "Renault"
+    class: "B"
+    position: 4
+    points: 39
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 33
+      name: "satoruko"
+    - number: 6
+      name: "Michie"
+    - number: 66
+      name: "knosu"
+  2016:
+    engine: "TAG Heuer"
+    class: "B"
+    position: 6
+    points: 37
+    stats:
+    - races: 12
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 16
+      name: "ninneko"
+    - number: 99
+      name: "ren53"
+    - number: 36
+      name: "NARU"
+"Ferrari":
+  2007:
+    engine: "Ferrari"
+    class: "A"
+    position: 6
+    points: 35
+    stats:
+    - races: 24
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 7
+      name: "kstr"
+    - number: 8
+      name: "AchroM"
+    - number: 9
+      name: "kirisame"
+  2008:
+    engine: "Ferrari"
+    class: "A"
+    position: 9
+    points: 8
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 1
+      name: "AchroM"
+    - number: 2
+      name: "Varietta"
+  2009:
+    engine: "Ferrari"
+    class: "B"
+    position: 3
+    points: 172
+    stats:
+    - races: 10
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+    drivers:
+    - number: 3
+      name: "Lybius"
+    - number: 4
+      name: "kirisame"
+  2010:
+    engine: "Ferrari"
+    class: "A"
+    position: 7
+    points: 70
+    stats:
+    - races: 12
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 7
+      name: "Aireal"
+    - number: 8
+      name: "Frode Tousetsu"
+    - number: 29
+      name: "Harmonia"
+  2011:
+    engine: "Ferrari"
+    class: "A"
+    position: 10
+    points: 2
+    stats:
+    - races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 6
+      name: "Blue"
+    - number: 28
+      name: "Frode Tousetsu"
+  2012:
+    engine: "Ferrari"
+    class: "A"
+    position: 1
+    points: 100
+    stats:
+    - races: 7
+      wins: 4
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+    drivers:
+    - number: 5
+      name: "Luthien Remillia"
+    - number: 6
+      name: "Shisyo"
+  2013:
+    engine: "Ferrari"
+    class: "B"
+    position: 3
+    points: 94
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 3
+      name: "Luthien Remillia"
+    - number: 4
+      name: "nori21"
+    - number: 32
+      name: "3298"
+  2014:
+    engine: "Ferrari"
+    class: "B"
+    position: 1
+    points: 167
+    stats:
+    - races: 10
+      wins: 2
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 9
+    drivers:
+    - number: 5
+      name: "Luthien Remillia"
+    - number: 18
+      name: "hosodaSR"
+  2015:
+    engine: "Ferrari"
+    class: "B"
+    position: 6
+    points: 28
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 7
+      name: "Lybius"
+    - number: 16
+      name: "ninneko"
+    - number: 36
+      name: "Yohji"
+  2016:
+    engine: "Ferrari"
+    class: "B"
+    position: 10
+    points: 4
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 18
+      name: "Hibiki"
+    - number: 26
+      name: "Sato Rin"
+    - number: 10
+      name: "syaio32"
+    - number: 51
+      name: "n"
+    - number: 2
+      name: "hosodaSR"
+"Force India":
+  2008:
+    engine: "Ferrari"
+    class: "D"
+    position: 6
+    points: 35
+    stats:
+    - races: 19
+      wins: 2
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 29
+      name: "MoonCresta"
+    - number: 30
+      name: "Frode Tousetsu"
+    - number: 31
+      name: "EDGE"
+  2009:
+    engine: "Mercedes"
+    class: "C"
+    position: 7
+    points: 121
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 20
+      name: "Frode Tousetsu"
+    - number: 21
+      name: "MoonCresta"
+  2010:
+    engine: "Mercedes"
+    class: "C"
+    position: 10
+    points: 43
+    stats:
+    - races: 7
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 14
+      name: "Ahonyan"
+    - number: 32
+      name: "Delico"
+  2011:
+    engine: "Mercedes"
+    class: "C"
+    position: 3
+    points: 80
+    stats:
+    - races: 9
+      wins: 2
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+    drivers:
+    - number: 14
+      name: "Luthien Remillia"
+    - number: 15
+      name: "n"
+  2012:
+    engine: "Mercedes"
+    class: "C"
+    position: 2
+    points: 89
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+    drivers:
+    - number: 11
+      name: "GTC-F"
+    - number: 12
+      name: "Ahonyan"
+    - number: 36
+      name: "umudapo"
+  2013:
+    engine: "Mercedes"
+    class: "C"
+    position: 9
+    points: 8
+    stats:
+    - races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 14
+      name: "MoonCresta"
+    - number: 15
+      name: "alexa"
+  2014:
+    engine: "Mercedes"
+    class: "C"
+    position: 5
+    points: 37
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 33
+      name: "satoruko"
+    - number: 77
+      name: "sikein"
+  2015:
+    engine: "Mercedes"
+    class: "C"
+    position: 3
+    points: 80
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+    drivers:
+    - number: 5
+      name: "Luthien Remillia"
+    - number: 11
+      name: "AiM"
+    - number: 15
+      name: "Ni-Cr-Mo"
+  2016:
+    engine: "Mercedes"
+    class: "C"
+    position: 3
+    points: 109
+    stats:
+    - races: 10
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+    drivers:
+    - number: 44
+      name: "sikein"
+    - number: 43
+      name: "AiM"
+    - number: 51
+      name: "n"
+"Williams":
+  2007:
+    engine: "Toyota"
+    class: "B"
+    position: 1
+    points: 95
+    stats:
+    - races: 24
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 7
+    drivers:
+    - number: 23
+      name: "Happa"
+    - number: 24
+      name: "niwaka"
+    - number: 25
+      name: "Aireal"
+  2008:
+    engine: "Toyota"
+    class: "C"
+    position: 4
+    points: 48
+    stats:
+    - races: 13
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+    drivers:
+    - number: 10
+      name: "Happa"
+    - number: 11
+      name: "kirisame"
+  2009:
+    engine: "Toyota"
+    class: "B"
+    position: 5
+    points: 141
+    stats:
+    - races: 16
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 16
+      name: "Aireal"
+    - number: 17
+      name: "Happa"
+  2010:
+    engine: "Cosworth"
+    class: "C"
+    position: 5
+    points: 145
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+    drivers:
+    - number: 9
+      name: "Happa"
+    - number: 10
+      name: "tajitaji"
+  2011:
+    engine: "Cosworth"
+    class: "C"
+    position: 9
+    points: 15
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 11
+      name: "Happa"
+    - number: 12
+      name: "3298"
+    - number: 31
+      name: "Lybius"
+  2012:
+    engine: "Renault"
+    class: "B"
+    position: 8
+    points: 36
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 18
+      name: "Frode Tousetsu"
+    - number: 19
+      name: "Rony Tomo"
+    - number: 39
+      name: "alexa"
+  2013:
+    engine: "Renault"
+    class: "D"
+    position: 7
+    points: 13
+    stats:
+    - races: 13
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 16
+      name: "Satoster Gates"
+    - number: 17
+      name: "Re;kazto"
+    - number: 38
+      name: "Harmonia"
+  2014:
+    engine: "Mercedes"
+    class: "B"
+    position: 2
+    points: 122
+    stats:
+    - races: 10
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+    drivers:
+    - number: 3
+      name: "Harmonia"
+    - number: 23
+      name: "kaz3790"
+    - number: 12
+      name: "Rony Tomo"
+  2015:
+    engine: "Mercedes"
+    class: "B"
+    position: 5
+    points: 37
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 69
+      name: "sikein"
+    - number: 14
+      name: "Sato Rin"
+  2016:
+    engine: "Mercedes"
+    class: "C"
+    position: 4
+    points: 61
+    stats:
+    - races: 12
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 33
+      name: "satoruko"
+    - number: 19
+      name: "aplln"
+"McLaren":
+  2007:
+    engine: "Mercedes"
+    class: "A"
+    position: 4
+    points: 51
+    stats:
+    - races: 14
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 6
+    drivers:
+    - number: 1
+      name: "GENKI"
+    - number: 2
+      name: "Marshall"
+    - number: 3
+      name: "Professor"
+  2008:
+    engine: "Mercedes"
+    class: "A"
+    position: 7
+    points: 26
+    stats:
+    - races: 16
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 32
+      name: "Lybius"
+    - number: 34
+      name: "Shisyo"
+  2009:
+    engine: "Mercedes"
+    class: "B"
+    position: 10
+    points: 12
+    stats:
+    - races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 1
+      name: "nanapon"
+    - number: 2
+      name: "Daicha"
+  2010:
+    engine: "Mercedes"
+    class: "A"
+    position: 2
+    points: 170
+    stats:
+    - races: 14
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 6
+    drivers:
+    - number: 1
+      name: "Cotton"
+    - number: 2
+      name: "MoonCresta"
+    - number: 26
+      name: "DoKuE[F1]"
+  2011:
+    engine: "Mercedes"
+    class: "A"
+    position: 8
+    points: 35
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 3
+      name: "Cotton"
+    - number: 4
+      name: "MoonCresta"
+  2012:
+    engine: "Mercedes"
+    class: "A"
+    position: 4
+    points: 50
+    stats:
+    - races: 10
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 3
+      name: "MoonCresta"
+    - number: 4
+      name: "Cotton"
+  2013:
+    engine: "Mercedes"
+    class: "C"
+    position: 4
+    points: 60
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+    drivers:
+    - number: 5
+      name: "kaz3790"
+    - number: 6
+      name: "Sato Rin"
+  2014:
+    engine: "Mercedes"
+    class: "C"
+    position: 4
+    points: 40
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 21
+      name: "nori21"
+    - number: 78
+      name: "Satoster Gates"
+  2015:
+    engine: "Honda"
+    class: "D"
+    position: 7
+    points: 14
+    stats:
+    - races: 10
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 2
+      name: "tan"
+    - number: 56
+      name: "Coka"
+    - number: 36
+      name: "Yohji"
+    - number: 12
+      name: "mizu312"
+  2016:
+    engine: "Honda"
+    class: "C"
+    position: 1
+    points: 171
+    stats:
+    - races: 12
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 7
+    drivers:
+    - number: 3
+      name: "Harmonia"
+    - number: 21
+      name: "nori21"
+"Toro Rosso":
+  2007:
+    engine: "Ferrari"
+    class: "D"
+    position: 2
+    points: 55
+    stats:
+    - races: 14
+      wins: 2
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+    drivers:
+    - number: 26
+      name: "Daicha"
+    - number: 27
+      name: "Hikage"
+  2008:
+    engine: "Ferrari"
+    class: "B"
+    position: 2
+    points: 63
+    stats:
+    - races: 20
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 7
+    drivers:
+    - number: 20
+      name: "alexa"
+    - number: 21
+      name: "kstr"
+    - number: 22
+      name: "GENKI"
+  2009:
+    engine: "Ferrari"
+    class: "C"
+    position: 8
+    points: 104
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+    drivers:
+    - number: 12
+      name: "tajitaji"
+    - number: 29
+      name: "IDE"
+  2011:
+    engine: "Ferrari"
+    class: "C"
+    position: 2
+    points: 91
+    stats:
+    - races: 9
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+    drivers:
+    - number: 18
+      name: "tajitaji"
+    - number: 19
+      name: "alexa"
+    - number: 34
+      name: "Yohji"
+  2012:
+    engine: "Ferrari"
+    class: "C"
+    position: 5
+    points: 49
+    stats:
+    - races: 13
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 16
+      name: "Morinaga-CoCoa"
+    - number: 17
+      name: "Alesi"
+    - number: 38
+      name: "nori21"
+  2013:
+    engine: "Ferrari"
+    class: "C"
+    position: 6
+    points: 21
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 18
+      name: "Alesi"
+    - number: 19
+      name: "Pachitan"
+  2014:
+    engine: "Renault"
+    class: "C"
+    position: 8
+    points: 14
+    stats:
+    - races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 17
+      name: "Re;kazto"
+    - number: 41
+      name: "Hiroshi"
+  2015:
+    engine: "Renault"
+    class: "C"
+    position: 11
+    points: 1
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 26
+      name: "medamayaki"
+    - number: 27
+      name: "Aoitori"
+  2016:
+    engine: "Ferrari"
+    class: "D"
+    position: 12
+    points: 3
+    stats:
+    - races: 10
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 12
+      name: "Hayata Asaga"
+    - number: 32
+      name: "soltany"
+    - number: 81
+      name: "mintia812"
+    - number: 51
+      name: "n"
+    - number: 4
+      name: "Daichi"
+"Haas":
+  2016:
+    engine: "Ferrari"
+    class: "D"
+    position: 9
+    points: 7
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 66
+      name: "knosu"
+    - number: 6
+      name: "YSKo6y"
+    - number: 68
+      name: "Brown68"
+"Renault":
+  2007:
+    engine: "Renault"
+    class: "B"
+    position: 10
+    points: 10
+    stats:
+    - races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 4
+      name: "Koohchan"
+    - number: 4
+      name: "Rony Tomo"
+  2008:
+    engine: "Renault"
+    class: "B"
+    position: 8
+    points: 8
+    stats:
+    - races: 7
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 7
+      name: "Rony Tomo"
+    - number: 8
+      name: "Palmer"
+    - number: 9
+      name: "Emirio"
+  2009:
+    engine: "Renault"
+    class: "C"
+    position: 6
+    points: 138
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+    drivers:
+    - number: 7
+      name: "LTeke"
+    - number: 8
+      name: "3298"
+  2010:
+    engine: "Renault"
+    class: "B"
+    position: 8
+    points: 66
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 11
+      name: "niwaka"
+    - number: 11
+      name: "AiM"
+    - number: 12
+      name: "Bluetree1230"
+    - number: 13
+      name: "ninneko"
+  2011:
+    engine: "Renault"
+    class: "B"
+    position: 6
+    points: 41
+    stats:
+    - races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 9
+      name: "umudapo"
+    - number: 10
+      name: "Rony Tomo"
+  2016:
+    engine: "Renault"
+    class: "D"
+    position: 11
+    points: 4
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 76
+      name: "Racing_9r3"
+    - number: 34
+      name: "kuraken"
+    - number: 56
+      name: "soramame"
+"Sauber":
+  2010:
+    engine: "Ferrari"
+    class: "C"
+    position: 3
+    points: 151
+    stats:
+    - races: 12
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 22
+      name: "kirisame"
+    - number: 23
+      name: "3298"
+    - number: 36
+      name: "Rony Tomo"
+  2011:
+    engine: "Ferrari"
+    class: "C"
+    position: 7
+    points: 35
+    stats:
+    - races: 9
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 16
+      name: "AiM"
+    - number: 17
+      name: "ninneko"
+  2012:
+    engine: "Ferrari"
+    class: "B"
+    position: 3
+    points: 79
+    stats:
+    - races: 10
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+    drivers:
+    - number: 14
+      name: "ninneko"
+    - number: 15
+      name: "AiM"
+  2013:
+    engine: "Ferrari"
+    class: "C"
+    position: 8
+    points: 8
+    stats:
+    - races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 11
+      name: "Surume Ikapan"
+    - number: 12
+      name: "syaio32"
+  2014:
+    engine: "Ferrari"
+    class: "D"
+    position: 12
+    points: 0
+    stats:
+    - races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 36
+      name: "Yohji"
+  2015:
+    engine: "Ferrari"
+    class: "D"
+    position: 9
+    points: 8
+    stats:
+    - races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 4
+      name: "Christian Sucmizu"
+    - number: 71
+      name: "Yuto Dutchin"
+    - number: 66
+      name: "knosu"
+    - number: 10
+      name: "syaio32"
+    - number: 15
+      name: "Ni-Cr-Mo"
+  2016:
+    engine: "Ferrari"
+    class: "E"
+    position: 7
+    points: 16
+    stats:
+    - races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 55
+      name: "Aoitori"
+    - number: 70
+      name: "ODIMON"
+    - number: 25
+      name: "Ahonyan"
+"SHR":
+  2014:
+    engine: "Ferrari"
+    class: "E"
+    position: 9
+    points: 0
+    stats:
+    - races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 4
+      name: "Alesi"
+    - number: 10
+      name: "syaio32"
+  2015:
+    engine: "Mercedes"
+    class: "C"
+    position: 2
+    points: 105
+    stats:
+    - races: 10
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+    drivers:
+    - number: 21
+      name: "nori21"
+    - number: 3
+      name: "Harmonia"
+  2016:
+    engine: "Supertech"
+    class: "D"
+    position: 8
+    points: 10
+    stats:
+    - races: 11
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    drivers:
+    - number: 88
+      name: "Happa"
+    - number: 58
+      name: "konkon390"
+    - number: 24
+      name: "Ni-Cr-Mo"
+    - number: 45
+      name: "GTC-F"
