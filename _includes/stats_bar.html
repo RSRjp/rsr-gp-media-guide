@@ -26,8 +26,8 @@
   <dl>
     {% case include.type %}
       {% when 'team' %}
-        <dt>チーム名</dt>
-        <dd>{{ stats.full_team_name }}</dd>
+        <dt>エントリー名</dt>
+        <dd>{{ site.data.ja[team_name].entrant_name }}</dd>
         <dt>シャーシ</dt>
         <dd>{{ stats.chassis | default: "TBA" }}</dd>
         <dt>ドライバー</dt>
@@ -61,7 +61,7 @@
         <dt>所属チーム</dt>
         <dd>
           <a href="{{ team_name | slugify: 'pretty' | prepend: '/teams/' | append: '/' | relative_url }}">
-            {{ site.data.teams[team_name].ja_name | default: team }}
+            {% include ja_name name=team_name %}
           </a>
         </dd>
     {% endcase %}

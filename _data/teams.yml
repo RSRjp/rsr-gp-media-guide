@@ -1,6 +1,4 @@
 "Mercedes":
-  ja_name: "メルセデス"
-  full_team_name: "Mercedes-AMG Petronas Motorsport"
   chassis: "GP W08 EQ Power+"
   powerunit: "Mercedes"
   color:
@@ -19,8 +17,6 @@
   - "GTC-F"
   - "AiM"
 "Red Bull":
-  ja_name: "レッドブル"
-  full_team_name: "Red Bull Racing"
   chassis: "RB13"
   powerunit: "TAG Heuer"
   color:
@@ -38,8 +34,6 @@
   - "Lybius"
   - "mizu312"
 "Ferrari":
-  ja_name: "フェラーリ"
-  full_team_name: "Scuderia Ferrari"
   chassis: "SF70H"
   powerunit: "Ferrari"
   color:
@@ -58,9 +52,6 @@
   - "BlueBlack14"
   - "Hayata Asaga"
 "Force India":
-  ja_name: "フォースインディア"
-  ja_short_name: "Fインディア"
-  full_team_name: "Sahara Force India GP Team"
   chassis: "VJM10"
   powerunit: "Mercedes"
   color:
@@ -77,8 +68,6 @@
   - "sucrose"
   - "satoruko"
 "Williams":
-  ja_name: "ウィリアムズ"
-  full_team_name: "Williams Martini Racing"
   chassis: "FW40"
   powerunit: "Mercedes"
   color:
@@ -97,8 +86,6 @@
   - "Yuto Dutchin"
   - "ODIMON"
 "McLaren":
-  ja_name: "マクラーレン"
-  full_team_name: "McLaren Honda"
   chassis: "MCL32"
   powerunit: "Honda"
   color: 
@@ -116,8 +103,6 @@
   - "Harmonia"
   - "konkon"
 "Toro Rosso":
-  ja_name: "トロロッソ"
-  full_team_name: "Scuderia Toro Rosso"
   chassis: "STR12"
   powerunit: "Renault"
   color: 
@@ -134,8 +119,6 @@
   - "ninneko"
   - "nori21"
 "Haas":
-  ja_name: "ハース"
-  full_team_name: "Haas GP Team"
   chassis: "VF-17"
   powerunit: "Ferrari"
   color: 
@@ -152,8 +135,6 @@
   - "knosu"
   - "NARU"
 "Renault":
-  ja_name: "ルノー"
-  full_team_name: "Renault Sport GP Team"
   chassis: "R.S.17"
   powerunit: "Renault"
   color:
@@ -170,8 +151,6 @@
   - "Luthien Remillia"
   - "ren53"
 "Sauber":
-  ja_name: "ザウバー"
-  full_team_name: "Sauber GP Team"
   chassis: "C36"
   powerunit: "Ferrari"
   color: 
@@ -186,8 +165,6 @@
   podiums: 5
   drivers:
 "SHR":
-  ja_name: "SHR"
-  full_team_name: "Super Happa Racing"
   chassis: ""
   powerunit: "Mercedes"
   color:

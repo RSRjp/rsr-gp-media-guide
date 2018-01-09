@@ -1,0 +1,1 @@
+{{ site.data.ja[include.name].name | default: site.data.ja[include.name] | default: include.name }}

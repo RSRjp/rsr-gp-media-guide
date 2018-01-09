@@ -21,7 +21,7 @@ header:
         <span class="fa-lg fa-fw">
           <i class="fas fa-car{% if team.color.inverse %} fa-inverse{% endif %}" style="background: {{ team.color.code }};"></i>
         </span>
-        {{ team.ja_short_name | default: team.ja_name }}
+        {% include ja_short_name name=name %}
       </a>
     </h2>
     <p class="archive__item-excerpt" itemprop="description">

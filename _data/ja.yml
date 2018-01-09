@@ -1,0 +1,44 @@
+"Mercedes":
+  name: "メルセデス"
+  entrant_name: "メルセデスAMG・ペトロナス・モータースポーツ"
+"Red Bull":
+  name: "レッドブル"
+  entrant_name: "レッドブル・レーシング"
+"Ferrari":
+  name: "フェラーリ"
+  entrant_name: "スクーデリア・フェラーリ"
+"Force India":
+  name: "フォース・インディア"
+  short_name: "Fインディア"
+  entrant_name: "サハラ・フォース・インディア・GPチーム"
+"Williams":
+  name: "ウィリアムズ"
+  entrant_name: "ウィリアムズ・マルティーニ・レーシング"
+"McLaren":
+  name: "マクラーレン"
+  entrant_name: "マクラーレン・ホンダ"
+"Toro Rosso":
+  name: "トロ・ロッソ"
+  entrant_name: "スクーデリア・トロ・ロッソ"
+"Haas":
+  name: "ハース"
+  entrant_name: "ハースGPチーム"
+"Renault":
+  name: "ルノー"
+  entrant_name: "ルノー・スポールGPチーム"
+"Sauber":
+  name: "ザウバー"
+  entrant_name: "ザウバーGPチーム"
+"SHR":
+  name: "SHR"
+  entrant_name: "スーパー・はっぱ・レーシング"
+"TAG Heuer": "タグ・ホイヤー"
+"Honda": "ホンダ"
+"Toyota": "トヨタ"
+"Cosworth": "コスワース"
+"Supertech": "スーパーテック"
+"Super Aguri": "スーパーアグリ"
+"Lotus": "ロータス"
+"Lotus Racing": "ロータス"
+"Caterham": "ケータハム"
+"Marussia": "マルシャ"
