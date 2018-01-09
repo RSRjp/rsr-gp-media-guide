@@ -1,0 +1,873 @@
+"GTC-F":
+  2009:
+    position: 1
+    points: 52
+    stats:
+    - team: "Toyota"
+      class: "B"
+      races: 8
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+  2011:
+    position: 1
+    points: 88
+    stats:
+    - team: "HRT"
+      class: "D"
+      races: 5
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+  2012:
+    position: 2
+    points: 81
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+  2013:
+    position: 3
+    points: 54
+    stats:
+    - team: "Red Bull"
+      class: "A"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+  2015:
+    position: 9
+    points: 12
+    stats:
+    - team: "Marussia"
+      class: "E"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 11
+    points: 10
+    stats:
+    - team: "SHR"
+      class: "D"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"AiM":
+  2010:
+    position: 18
+    points: 0
+    stats:
+    - team: "Renault"
+      class: "B"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2011:
+    position: 7
+    points: 31
+    stats:
+    - team: "Sauber"
+      class: "C"
+      races: 5
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+  2012:
+    position: 3
+    points: 76
+    stats:
+    - team: "Sauber"
+      class: "B"
+      races: 5
+      wins: 1
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+  2013:
+    position: 1
+    points: 100
+    stats:
+    - team: "Red Bull"
+      class: "A"
+      races: 5
+      wins: 4
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+  2014:
+    position: 8
+    points: 31
+    stats:
+    - team: "Caterham"
+      class: "E"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+  2015:
+    position: 13
+    points: 8
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 2
+    points: 103
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 6
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+"Lybius":
+  2007:
+    position: 12
+    points: 12
+    stats:
+    - team: "Super Aguri"
+      class: "D"
+      races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2008:
+    position: 7
+    points: 23
+    stats:
+    - team: "McLaren"
+      class: "A"
+      races: 9
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+  2009:
+    position: 12
+    points: 4
+    stats:
+    - team: "Ferrari"
+      class: "B"
+      races: 2
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2010:
+    position: 2
+    points: 47
+    stats:
+    - team: "Mercedes"
+      class: "B"
+      races: 7
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+  2011:
+    position: 10
+    points: 15
+    stats:
+    - team: "Williams"
+      class: "C"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2012:
+    position: 12
+    points: 8
+    stats:
+    - team: "Lotus"
+      class: "B"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2013:
+    position: 16
+    points: 7
+    stats:
+    - team: "Lotus"
+      class: "B"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2014:
+    position: 6
+    points: 36
+    stats:
+    - team: "Mercedes"
+      class: "A"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2015:
+    position: 8
+    points: 14
+    stats:
+    - team: "Ferrari"
+      class: "B"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 9
+    points: 19
+    stats:
+    - team: "Mercedes"
+      class: "A"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"mizu312":
+  2015:
+    position: 10
+    points: 10
+    stats:
+    - team: "McLaren"
+      class: "D"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"Hayata Asaga":
+  2016:
+    position: 17
+    points: 1
+    stats:
+    - team: "Toro Rosso"
+      class: "D"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"sucrose":
+  2015:
+    position: 26
+    points: 0
+    stats:
+    - team: "Sauber"
+      class: "D"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 7
+    points: 30
+    stats:
+    - team: "MRT"
+      class: "E"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"satoruko":
+  2014:
+    position: 9
+    points: 24
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2015:
+    position: 6
+    points: 36
+    stats:
+    - team: "Red Bull"
+      class: "B"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+  2016:
+    position: 6
+    points: 34
+    stats:
+    - team: "Williams"
+      class: "C"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"Yuto Dutchin":
+  2015:
+    position: 21
+    points: 0
+    stats:
+    - team: "Sauber"
+      class: "D"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 12
+    points: 10
+    stats:
+    - team: "MRT"
+      class: "E"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"ODIMON":
+  2016:
+    position: 10
+    points: 16
+    stats:
+    - team: "Sauber"
+      class: "E"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"Harmonia":
+  2010:
+    position: 16
+    points: 2
+    stats:
+    - team: "Ferrari"
+      class: "A"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2011:
+    position: 12
+    points: 8
+    stats:
+    - team: "Mercedes"
+      class: "B"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2012:
+    position: 28
+    points: 0
+    stats:
+    - team: "Caterham"
+      class: "D"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2013:
+    position: 10
+    points: 13
+    stats:
+    - team: "Williams"
+      class: "D"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2014:
+    position: 7
+    points: 34
+    stats:
+    - team: "Williams"
+      class: "B"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+  2015:
+    position: 5
+    points: 47
+    stats:
+    - team: "SHR"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+  2016:
+    position: 4
+    points: 84
+    stats:
+    - team: "McLaren"
+      class: "C"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+"konkon":
+  2016:
+    position: 21
+    points: 0
+    stats:
+    - team: "SHR"
+      class: "D"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"ninneko":
+  2010:
+    position: 13
+    points: 3
+    stats:
+    - team: "Renault"
+      class: "B"
+      races: 2
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2011:
+    position: 14
+    points: 4
+    stats:
+    - team: "Sauber"
+      class: "C"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2012:
+    position: 18
+    points: 3
+    stats:
+    - team: "Sauber"
+      class: "B"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2013:
+    position: 20
+    points: 0
+    stats:
+    - team: "Marussia"
+      class: "D"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2014:
+    position: 4
+    points: 48
+    stats:
+    - team: "Red Bull"
+      class: "B"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2015:
+    position: 12
+    points: 8
+    stats:
+    - team: "Ferrari"
+      class: "B"
+      races: 2
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 5
+    points: 37
+    stats:
+    - team: "Red Bull"
+      class: "B"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+"nori21":
+  2010:
+    position: 9
+    points: 7
+    stats:
+    - team: "Red Bull"
+      class: "A"
+      races: 2
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 1
+  2011:
+    position: 4
+    points: 59
+    stats:
+    - team: "Mercedes"
+      class: "B"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+  2012:
+    position: 5
+    points: 38
+    stats:
+    - team: "Toro Rosso"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2013:
+    position: 5
+    points: 48
+    stats:
+    - team: "Ferrari"
+      class: "B"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2014:
+    position: 5
+    points: 40
+    stats:
+    - team: "McLaren"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2015:
+    position: 4
+    points: 58
+    stats:
+    - team: "SHR"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 3
+    points: 87
+    stats:
+    - team: "McLaren"
+      class: "C"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+"knosu":
+  2015:
+    position: 15
+    points: 4
+    stats:
+    - team: "Sauber"
+      class: "D"
+      races: 2
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+    - team: "Red Bull"
+      class: "B"
+      races: 1
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 14
+    points: 6
+    stats:
+    - team: "Haas"
+      class: "D"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"NARU":
+  2016:
+    position: 28
+    points: 0
+    stats:
+    - team: "Red Bull"
+      class: "B"
+      races: 2
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"Luthien Remillia":
+  2010:
+    position: 5
+    points: 28
+    stats:
+    - team: "Lotus Racing"
+      class: "D"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+  2011:
+    position: 2
+    points: 80
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 5
+      wins: 2
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+  2012:
+    position: 1
+    points: 100
+    stats:
+    - team: "Ferrari"
+      class: "A"
+      races: 4
+      wins: 4
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+  2013:
+    position: 6
+    points: 46
+    stats:
+    - team: "Ferrari"
+      class: "B"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 2
+  2014:
+    position: 1
+    points: 101
+    stats:
+    - team: "Ferrari"
+      class: "B"
+      races: 5
+      wins: 2
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+  2015:
+    position: 2
+    points: 72
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 4
+  2016:
+    position: 1
+    points: 123
+    stats:
+    - team: "Mercedes"
+      class: "A"
+      races: 6
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 5
+"ren53":
+  2016:
+    position: 23
+    points: 0
+    stats:
+    - team: "Red Bull"
+      class: "B"
+      races: 6
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"Happa":
+  2007:
+    position: 4
+    points: 47
+    stats:
+    - team: "Williams"
+      class: "B"
+      races: 9
+      wins: 3
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 3
+  2008:
+    position: 16
+    points: 5
+    stats:
+    - team: "Williams"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2009:
+    position: 10
+    points: 6
+    stats:
+    - team: "Williams"
+      class: "B"
+      races: 8
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2010:
+    position: 20
+    points: 0
+    stats:
+    - team: "Williams"
+      class: "C"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2011:
+    position: 23
+    points: 0
+    stats:
+    - team: "Williams"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 24
+    points: 0
+    stats:
+    - team: "SHR"
+      class: "D"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+"sikeindy":
+  2012:
+    position: 23
+    points: 0
+    stats:
+    - team: "HRT"
+      class: "D"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2013:
+    position: 25
+    points: 0
+    stats:
+    - team: "Marussia"
+      class: "D"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2014:
+    position: 11
+    points: 13
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 5
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2015:
+    position: 14
+    points: 5
+    stats:
+    - team: "Williams"
+      class: "B"
+      races: 4
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0
+  2016:
+    position: 22
+    points: 0
+    stats:
+    - team: "Force India"
+      class: "C"
+      races: 3
+      wins: 0
+      pole_positions: 0
+      fastest_laps: 0
+      podiums: 0

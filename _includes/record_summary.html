@@ -31,15 +31,15 @@
       {% assign record = h[1] %}
       {% capture bgcolor %}{% cycle "#fff", "#ccc" %}{% endcapture %}
       {% for stats in record.stats %}
-        {% capture colspan %}{% if forloop.length > 1 %} colspan="{{ forloop.length }}"{% endif %}{% endcapture %}
+        {% capture rowspan %}{% if forloop.length > 1 %} rowspan="{{ forloop.length }}"{% endif %}{% endcapture %}
         <tr style="background: {{ bgcolor }}">
           {% if forloop.first %}
-            <td{{ colspan }}>{{ season }}</td>
+            <td{{ rowspan }}>{{ season }}</td>
             {% case include.type %}
               {% when "team" %}
-              <td{{ colspan }}>{{ record.engine }}</td>
-              <td style="text-align: center;"{{ colspan }}>{{ record.class }}</td>
-              <td{{ colspan }}>
+              <td{{ rowspan }}>{{ record.engine }}</td>
+              <td style="text-align: center;"{{ rowspan }}>{{ record.class }}</td>
+              <td{{ rowspan }}>
                 {% for driver in record.drivers %}
                   {{ driver.number }}. {{ driver.name }}<br />
                 {% endfor %}
@@ -57,8 +57,8 @@
           <td>{{ stats.fastest_laps }}</td>
           <td>{{ stats.podiums }}</td>
           {% if forloop.first %}
-            <td>{{ record.points }}</td>
-            <td>{{ record.position | default: "N/A" }}</td>
+            <td{{ rowspan }}>{{ record.points }}</td>
+            <td{{ rowspan }}>{{ record.position | default: "N/A" }}</td>
           {% endif %}
         </tr>
       {% endfor %}
