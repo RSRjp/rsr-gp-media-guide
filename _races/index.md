@@ -9,5 +9,5 @@ header:
 {% for race in site.data.races %}
 ## <i class="fa fa-calendar-alt" aria-hidden="true"></i> {{ race.date | date:'%Y/%m/%d' }}
 <i class="fa fa-flag-checkered" aria-hidden="true"></i> 第{{ forloop.index }}戦: {{ race.name }}
-: <i class="fa fa-globe" aria-hidden="true"></i> {{ race.location }} - {{ race.circuit.name }}
+: <i class="fa fa-globe" aria-hidden="true"></i> {% include ja_name name=race.location %} - {{ race.circuit.name }}
 {% endfor %}

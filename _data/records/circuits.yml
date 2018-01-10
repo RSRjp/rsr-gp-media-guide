@@ -1,0 +1,115 @@
+"Melbourne":
+  2007:
+    winner:
+      driver: "Hikage"
+      team: "Toro Rosso"
+    pole_position:
+      driver: "Happa"
+      team: "Williams"
+    fastest_lap:
+      driver: "Eldrick"
+      team: "Red Bull"
+  2011:
+    winner:
+      driver: "tajitaji"
+      team: "Toro Rosso"
+    pole_position:
+      driver: "tajitaji"
+      team: "Toro Rosso"
+    fastest_lap:
+      driver: "tajitaji"
+      team: "Toro Rosso"
+"Monte Carlo":
+  2007:
+    winner:
+      driver: "Happa"
+      team: "Williams"
+    pole_position:
+      driver: "Hikage"
+      team: "Toro Rosso"
+    fastest_lap:
+      driver: "Hikage"
+      team: "Toro Rosso"
+  2008:
+    winner:
+      driver: "alexa"
+      team: "Toro Rosso"
+    pole_position:
+      driver: "3298"
+      team: "BMW"
+    fastest_lap:
+      driver: "3298"
+      team: "BMW"
+  2012:
+    winner:
+      driver: "Luthien Remillia"
+      team: "Ferrari"
+    pole_position:
+      driver: "Luthien Remillia"
+      team: "Ferrari"
+    fastest_lap:
+      driver: "kaz3790"
+      team: "Mercedes"
+"Barcelona":
+  2009:
+    winner:
+      driver: "alexa"
+      team: "BMW"
+    pole_position:
+      driver: "Rony Tomo"
+      team: "Red Bull"
+    fastest_lap:
+      driver: "MoonCresta"
+      team: "Force India"
+"Monza":
+  2007:
+    winner:
+      driver: "EmirioJP"
+      team: "Spyker"
+    pole_position:
+      driver: "FTeke"
+      team: "Toyota"
+    fastest_lap:
+      driver: "FTeke"
+      team: "Toyota"
+  2012:
+    winner:
+      driver: "Luthien Remillia"
+      team: "Ferrari"
+    pole_position:
+      driver: "Luthien Remillia"
+      team: "Ferrari"
+    fastest_lap:
+      driver: "GTC-F"
+      team: "Force India"
+"Spa-Francorchamps":
+  2007:
+    winner:
+      driver: "FTeke"
+      team: "Toyota"
+    pole_position:
+      driver: "FTeke"
+      team: "Toyota"
+    fastest_lap:
+      driver: "FTeke"
+      team: "Toyota"
+  2009:
+    winner:
+      driver: "kirisame"
+      team: "Ferrari"
+    pole_position:
+      driver: "alexa"
+      team: "BMW"
+    fastest_lap:
+      driver: "MokeMoke"
+      team: "Red Bull"
+  2013:
+    winner:
+      driver: "AiM"
+      team: "Red Bull"
+    pole_position:
+      driver: "Luthien Remillia"
+      team: "Ferrari"
+    fastest_lap:
+      driver: "AiM"
+      team: "Red Bull"

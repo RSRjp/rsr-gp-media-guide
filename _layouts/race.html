@@ -2,20 +2,52 @@
 layout: single
 ---
 {% assign race = site.data.races[page.race_index] %}
+{% assign circuit = race.circuit %}
 
-<h2>{{ race.location }} - {{ race.date | date:'%Y/%m/%d' }}</h2>
+<h2>{% include ja_name name=race.location %} - {{ race.date | date:'%Y/%m/%d' }}</h2>
 
 {% include figure image_path=race.image alt=race.name %}
-{% capture circuit_detail %}
-  <dl>
-    <dt>サーキット</dt>
-    <dd>{{ race.circuit.name }}</dd>
-    <dt>全長</dt>
-    <dd>{{ race.circuit.length }} km</dd>
-    <dt>周回数</dt>
-    <dd>{{ race.circuit.laps }} 周</dd>
-  </dl>
-{% endcapture %}
-{% include figure image_path=race.circuit.image alt=race.circuit.name caption=circuit_detail %}
+{% include figure image_path=circuit.image alt=circuit.name caption=circuit.name %}
 
+<dl>
+  <dt>全長</dt>
+  <dd>{{ circuit.length }} km</dd>
+  <dt>周回数</dt>
+  <dd>{{ circuit.laps }} 周</dd>
+  <dt>開催回数</dt>
+  <dd>{% if circuit.races %}{{ circuit.races }} 回{% else %}初開催{% endif %}</dd>
+  {% if circuit.races %}
+    <dt>初レース</dt>
+    <dd>{% if circuit.first_season %}{{ circuit.first_season }} シーズン{% else %}なし{% endif %}</dd>
+  {% endif %}
+</dl>
+
+{% assign records = site.data.records.circuits[race.location] %}
+{% if records %}
+  <h3>過去のレース</h3>
+  <table>
+    <tr style="background: #ccc;">
+      <th>シーズン</th>
+      <th>優勝者</th>
+      <th>チーム</th>
+      <th>ポールポジション</th>
+      <th>チーム</th>
+      <th>ファステストラップ</th>
+      <th>チーム</th>
+    </tr>
+    {% for h in records %}
+      {% assign season = h[0] %}
+      {% assign record = h[1] %}
+      <tr style="backgroud: {% cycle "#fff", "#ccc" %}">
+        <td>{{ season }}</td>
+        <td>{{ record.winner.driver }}</td>
+        <td>{% include ja_name name=record.winner.team %}</td>
+        <td>{{ record.pole_position.driver }}</td>
+        <td>{% include ja_name name=record.pole_position.team %}</td>
+        <td>{{ record.fastest_lap.driver }}</td>
+        <td>{% include ja_name name=record.fastest_lap.team %}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endif %}
 {{ content }}

@@ -1,3 +1,4 @@
+# teams
 "Mercedes":
   name: "メルセデス"
   entrant_name: "メルセデスAMG・ペトロナス・モータースポーツ"
@@ -32,6 +33,7 @@
 "SHR":
   name: "SHR"
   entrant_name: "スーパー・はっぱ・レーシング"
+# engines
 "TAG Heuer": "タグ・ホイヤー"
 "Honda": "ホンダ"
 "Toyota": "トヨタ"
@@ -42,3 +44,10 @@
 "Lotus Racing": "ロータス"
 "Caterham": "ケータハム"
 "Marussia": "マルシャ"
+# circuits
+"Melbourne": "メルボルン"
+"Monte Carlo": "モンテカルロ"
+"Baku": "バクー"
+"Barcelona": "バルセロナ"
+"Monza": "モンツァ"
+"Spa-Francorchamps": "スパ=フランコルシャン"
