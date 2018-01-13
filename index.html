@@ -1,26 +1,31 @@
 ---
-title: "Start"
+title: "ホーム"
 layout: splash
-excerpt: "Your Engines!"
-header:
-  overlay_image: /assets/images/RSRGP2017_Screenshot.jpg
-posts:
-- header:
-    teaser: /assets/images/teams_idx.jpg
-  title: "チーム"
+header_row:
+- image_path: /assets/images/RSRGP2017_Screenshot.jpg
+  title: "RSR Grand Prix"
+  excerpt: "Let's start the 2017 season"
+  url: "/overview/"
+  btn_label: "シリーズ概要"
+  btn_class: "btn--inverse"
+- image_path: /assets/images/preview_idx.jpg
+  title: "Season Preview"
+  excerpt: "Heading into 2017 season"
+  url: "/season-preview/"
+  btn_label: "シーズンプレビュー"
+  btn_class: "btn--inverse"
+category_row:
+- image_path: /assets/images/teams_idx.jpg
+  title: "参戦チーム"
   url: "/teams/"
-- header:
-    teaser: /assets/images/drivers_idx.jpg
+- image_path: /assets/images/drivers_idx.jpg
   title: "ドライバー"
   url: "/drivers/"
-- header:
-    teaser: /assets/images/races_idx.jpg
-  title: "日程"
+- image_path: /assets/images/races_idx.jpg
+  title: "レース日程"
   url: "/races/"
 ---
 
-<div class="grid__wrapper">
-  {% for post in page.posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
+{% include feature_row id="header_row" type="left" %}
+
+{% include feature_row id="category_row" %}
